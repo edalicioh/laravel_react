@@ -34,8 +34,10 @@
     },
     "dependencies": {
         "@types/lodash": "^4.14.159",
+        "admin-lte": "^3.0",
         "laravel-mix-react-typescript-extension": "^1.0.3",
         "react-icons": "^3.10.0",
+        "react-router": "^5.2.0",
         "react-router-dom": "^5.2.0",
         "styled-components": "^5.1.1"
     }

@@ -1,8 +1,20 @@
-// Fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito');
 
-// Variables
+@import '~bootstrap/scss/bootstrap';
 @import 'variables';
 
-// Bootstrap
-@import '~bootstrap/scss/bootstrap';
+@import '~admin-lte/build/scss/AdminLTE.scss';
+
+.main-sidebar  {
+    height: 100vh !important ;
+}
+
+.icon svg {
+    position: absolute;
+    right: 15px;
+    transition: all .3s linear;
+}
+.small-subbox {
+    display: flex;
+    justify-content: space-between;
+    padding: 6%;
+}

@@ -11,7 +11,8 @@
         <!-- Styles -->
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     </head>
-    <body>
+    <body class="hold-transition">
+
         <div id="root"></div>
 
         <script src="{{ asset('ts/app.js') }}"></script>

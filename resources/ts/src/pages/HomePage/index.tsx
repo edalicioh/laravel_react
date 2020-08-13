@@ -1,21 +1,24 @@
-import React from "react";
+import React, { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
-import { Title } from "./styled";
+import "./styles.css";
+
 
 const HomePage: React.FC = () => {
+
     return (
-        <div className="container py-4">
-            <div className="row justify-content-center">
-                <div className="col-md-8">
-                    <div className="card">
-                        <div className="card-header">All projects</div>
-                        <div className="card-body">
-                            <Title>Home Page</Title>
-                        </div>
-                    </div>
-                </div>
+        <div className="flex-center position-ref full-height">
+            <div className="top-right links">
+                    <Link to="/login">Login</Link>
+
+            </div>
+
+        <div className="content">
+            <div className="title m-b-md">
+                Laravel React Typescript
             </div>
         </div>
+    </div>
     );
 };
 
